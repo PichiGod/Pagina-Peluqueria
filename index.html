@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!--Bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+
+    <!--Bootstrap icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <title>Peluca Divina</title>
+    <link rel="shortcut icon" href="../assests/nav-img.ico" />
+  </head>
+  <body style="overflow-x: hidden">
+    <!--Navbar-->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../assests/nav-img.svg" alt="Logo" width="35" height="30" class="d-inline-block align-text-top">
+            <span class="navbar-brand mb-0 h1">Peluca Divina</span>
+        </a>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a href="https://github.com/PichiGod">GitHub</a>
+            </li>
+            <li class="nav-item">
+                <a href=""></a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Page Content-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-8 justify">
+          <article>
+            <h2>
+              Tendencias de estilos de cabello que están emergiendo en los
+              últimos meses
+            </h2>
+            <hr />
+            <h6 class="my-3 lead">
+              Los estilos de cabello pueden variar enormemente de persona a
+              persona. Para algunos, una buena opción es el típico cabello con
+              un corte de hombre clásico, pero hay mucho más para elegir.
+              Inspírate con melenas desordenadas y comodines desnudos, flecos
+              desfilados, capas cortas, cola de caballo con trenzas, cortes
+              ondulados, bob bobinas y moños. Además, recientemente hay muchas
+              tendencias de cabello como el cabello liso, el rizado de lujo, los
+              cuentas gruesas, las ondas desenfadadas y las cercas de acero.
+            </h6>
+
+            <p class="my-3 fs-6">
+              Los estilos de cabello pueden variar mucho; desde el corte como
+              una cosa clásica, hasta cortes modernos, desgastados, estilos para
+              varones, estilos para mujeres, flequillos, trenzas, peinados con
+              trenzas, moños y muchos más. Cada estilo ofrece una variedad
+              infinita de posibilidades para completar un look único. Algunos
+              estilos, como las trenzas, incluso tienen subestilos, como trenzas
+              francesas, trenzas de hilo, trenzas de cascada y más. Entonces,
+              independientemente de si quieres lucir moderno, clásico,
+              desgastado o único, hay muchas opciones para variar tu cabellera.
+            </p>
+
+            <h4 id="mujer">Mujeres</h4>
+            <p class="fs-6 my-3">
+              Las mujeres tienen una amplia variedad de estilos de peinado para
+              elegir. Estilos populares incluyen cabello liso, rizado, corto,
+              lacio y en cola de caballo. Pelucas, extensiones y flequillos
+              también se han vuelto populares entre las mujeres que buscan un
+              cambio de estilo. Otras opciones son flequillos rectos, bob,
+              despuntes y ondas largas. Hay una variedad de estilos para
+              satisfacer diferentes gustos, personalidades y prácticamente
+              cualquier tipo de cabello. Las mujeres pueden optar por utilizar
+              productos de peinado para lograr el look deseado o acudir a un
+              estilista para obtener una nueva apariencia.
+            </p>
+          </article>
+
+          <!--Tabs-->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="home-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#home-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="home-tab-pane"
+                aria-selected="true"
+              >
+                Rubias
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="profile-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#profile-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="profile-tab-pane"
+                aria-selected="false"
+              >
+                Castañas
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="contact-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#contact-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="contact-tab-pane"
+                aria-selected="false"
+              >
+                Tintes
+              </button>
+            </li>
+          </ul>
+
+          <!--Tab contents-->
+          <div class="tab-content border" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home-tab-pane"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+              tabindex="0"
+            >
+              <div class="d-flex justify-content-between mx-5" id="pad">
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/rubia-beige.png"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Beige</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/rubia-dorada.png"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Dorada</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/rubia-almendrada.png"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Almendrado</strong>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <ul>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Cabello rubio beige</strong>
+                  </p>
+                  <p class="fs-6">
+                    Uno de los tipos de rubio 2023 más demandados. Nos encanta
+                    por el glamour y la sensualidad que desprende. Un tono que
+                    combina tonos cálidos y fríos para dar a tu cabello un
+                    aspecto natural y muy saludable.
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1"><strong>Cabello rubio dorado</strong></p>
+                  <p class="fs-6">
+                    También lo conocemos como rubio de Hollywood o Golden Blonde
+                    porque recuerda a esas melenas doradas del cine clásico. Nos
+                    encanta por el brillo y la fuerza que confiere al cabello
+                    sin perder un ápice de feminidad. Mezcla a la perfección con
+                    tonos oscuros.
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Cabello rubio almendrado</strong>
+                  </p>
+                  <p class="fs-6">
+                    ¿Aún no conoces el pelo rubio almendra o almendrado? Ha sido
+                    uno de los colores de la pasada temporada por su aire
+                    clásico. Un tono entre el rubio y el castaño que te dará un
+                    plus de personalidad y estilo a tu cabello. Si te gustan las
+                    mechas y tienes un color de pelo rubio similar a este,
+                    prueba a ponerte unas balayage. ¡Te sentarán de lujo!
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="profile-tab-pane"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+              tabindex="0"
+            >
+              <div
+                class="d-flex justify-content-between align-items-center mx-5"
+                id="pad"
+              >
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/castana-expresso.png"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Expresso</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/castana-chocolate.png"
+                    alt="..."
+                    id="med-img"
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Chocolate</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/castana-tostada.png"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Tostada</strong>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <ul>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Cabello castaño expresso</strong>
+                  </p>
+                  <p class="fs-6">
+                    ¿No puedes levantarte sin tu dosis de cafeína por las
+                    mañanas? Pues bien, vamos a extender esto al color de
+                    cabello más intenso que puedes encontrar. Es oscuro,
+                    atrevido y totalmente lujoso. La clave para obtener este
+                    tono castaño es trabajar para asegurarte de lucir un brillo
+                    intenso, así que mantén el cabello en condiciones óptimas.
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Cabello castaño chocolate</strong>
+                  </p>
+                  <p class="fs-6">
+                    Este tono es perfecto para jugar con la técnica de tinte
+                    sombreado. Pero para mantenerlo moderno, prueba algunas
+                    variantes. En lugar de ir de raíces claras a puntas oscuras,
+                    con cabello castaño color chocolate, prueba con raíces
+                    oscuras que cambian gradualmente a puntas más claras. Mantén
+                    la textura ligeramente alborotada con un volumising mousse,
+                    que te brinda un aspecto alborotado no crujiente.
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Cabello castaño tostado</strong>
+                  </p>
+                  <p class="fs-6">
+                    Cuando se trata de ideas de color para el cabello castaño,
+                    el tostado siempre es menospreciado. Este tono cálido,
+                    basado en el anaranjado, no solo realza el color de los ojos
+                    azules y verdes, también funciona de maravilla con tonos de
+                    piel muy pálidos a medianos.
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="contact-tab-pane"
+              role="tabpanel"
+              aria-labelledby="contact-tab"
+              tabindex="0"
+            >
+              <div
+                class="d-flex justify-content-between align-items-center mx-5"
+                id="pad"
+              >
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/pumpkin-spice.webp"
+                    alt="..."
+                    id="sml-img"
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Pumpkin spice</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/Castano-miel.webp"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Castaño y miel</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/caramelo.webp"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Caramelo</strong>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <ul>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>"Pumpkin spice"</strong>
+                  </p>
+                  <p class="fs-6">
+                    Si eres morena y tu subtono de piel es cálido,
+                    definitivamente tienes que probar este tinte que evoca los
+                    colores de un pumpkin spice latte. Las raíces son oscuras y
+                    profundas, a la vez que despliegan un color anaranjado,
+                    terminando con las puntas en tono calabaza. ¡Es delicioso! Y
+                    para ese toque extra, este bob balayage se puede llevar con
+                    las puntas desfiladas.
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Castaño y miel</strong>
+                  </p>
+                  <p class="fs-6">
+                    Podemos definirlo como un corte bob a la barbilla (o jawline
+                    bob) que se va haciendo más claro conforme se acerca a las
+                    puntas, llegando a un tono miel de impacto. El efecto
+                    resaltará mucho más si llevas los bordes rectos y sólidos,
+                    aunque lo mejor es que decidas a
+                    <a
+                      href="https://www.glamour.mx/belleza/cabello/articulos/corte-de-cabello-bob-tendencias-2022/21956"
+                      >el bob ideal para ti según tu tipo de rostro.</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Caramelo</strong>
+                  </p>
+                  <p class="fs-6">
+                    Para quienes quieren darle ese toque bronceado a su piel sin
+                    necesidad de aplicar maquillaje, les proponemos pedir a su
+                    estilista un balayage caramelo en contraste con las raíces
+                    oscuras. ¡Es realmente sexy! Y para que lo sea aún más, les
+                    sugerimos pedir también suaves capas para dar más dimensión
+                    y volumen hasta en los momentos en que no quieras peinarlo.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-3 fs-6">
+            La elección correcta de un estilo de pelo puede marcar la diferencia
+            en el modo en que una persona se ve y se siente. Cada mujer tiene su
+            propio estilo y puede decidir el más adecuado para ella para
+            conseguir la imagen perfecta. Siempre es una buena idea consultar
+            con un estilista profesional antes de tomar una decisión para
+            garantizar un resultado que te haga sentirte cómoda y segura. Sea
+            cual sea el estilo que elijas, recuerda que eres única y vales
+            mucho. ¡Tú eres la más bella!
+          </div>
+
+          <article class="mt-5">
+            <h4 id="male">Hombres</h4>
+            <p class="fs-6 my-3">
+              Los hombres pueden elegir entre muchos estilos de cabello: desde
+              el clásico y sensible corte de cabello corto hasta el look moderno
+              y moderno con desvanecido. Los cortes de cabello para hombres
+              también pueden ser texturizados para darles volumen o alinearlos
+              para un look más limpio. La melena mediana con barba es una
+              populard tendencia en la actualidad que ofrece a los hombres un
+              look juvenil y desenfadado. Los moños altos, los cortes con
+              flequillo desiguales y los estilos despeinados también son otros
+              looks divertidos para los hombres modernos. Los fanáticos de los
+              años noventa pueden optar por el cabello peinado hacia atrás como
+              para un señor de los años noventa. Los hombres con cabello rizado
+              pueden optar por estilos desordenados con destacados temporales
+              para agregar textura y brillo.
+            </p>
+          </article>
+
+          <!--Tabs-->
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="home-tab2"
+                data-bs-toggle="tab"
+                data-bs-target="#home-tab-pane2"
+                type="button"
+                role="tab"
+                aria-controls="home-tab-pane"
+                aria-selected="true"
+              >
+                Rubios
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="profile-tab2"
+                data-bs-toggle="tab"
+                data-bs-target="#profile-tab-pane2"
+                type="button"
+                role="tab"
+                aria-controls="profile-tab-pane"
+                aria-selected="false"
+              >
+                Castaños
+              </button>
+            </li>
+          </ul>
+
+          <!--Tab contents-->
+          <div class="tab-content border" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="home-tab-pane2"
+              role="tabpanel"
+              aria-labelledby="home-tab"
+              tabindex="0"
+            >
+              <div
+                class="d-flex justify-content-between align-items-center mx-5"
+                id="pad"
+              >
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/pelo-platinado-hombre.webp"
+                    alt="..."
+                    id="sml-img"
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Con jopo y contraste</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/platinado-hombre.avif"
+                    alt="..."
+                    
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Corte taza</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/pompadoir.avif"
+                    alt="..."
+                    id="sml-img"
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Pompadour</strong>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <ul>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Con jopo y contraste</strong>
+                  </p>
+                  <p class="fs-6">
+                    Si te gusta el look un poco más moderno, el jopo largo
+                    contrastando con la barba oscura es tu mejor opción. La
+                    transición de color queda a la altura de las patillas, con
+                    una degradación sutil para que no quede tan marcada. Aunque
+                    quizás busques ese estilo a propósito.
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Corte taza</strong>
+                  </p>
+                  <p class="fs-6">
+                    El corte taza largo es una buena alternativa para ser
+                    abanderado del platinado hombre. No solo se luce bien por la
+                    extensión y el movimiento sino que cobra otra profundidad
+                    gracias al rapado debajo.
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Pompadour</strong>
+                  </p>
+                  <p class="fs-6">
+                    Una forma de llevar el platinado hombre por todo lo alto.
+                    Sí, peinado hacia atrás y con mucho volumen. Los lados, en
+                    cambio, rapados. Esto da un aspecto de ligereza pero, a su
+                    vez, equilibra el peso visual que da la barba tupida.
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div
+              class="tab-pane fade"
+              id="profile-tab-pane2"
+              role="tabpanel"
+              aria-labelledby="profile-tab"
+              tabindex="0"
+            >
+              <div
+                class="d-flex justify-content-between align-items-center mx-5"
+                id="pad"
+              >
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/corte-hombre-buzz.webp"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Corte Buzz</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/mohicano-personalizado.webp"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Mohicano personalizado</strong>
+                  </figcaption>
+                </figure>
+
+                <figure class="figure">
+                  <img
+                    class="figure-img img-fluid n"
+                    src="../assests/corte-crop-cesar.webp"
+                    alt="..."
+                  />
+                  <figcaption class="figure-caption text-center fs-5">
+                    <strong>Corte Crop (Cesar) </strong>
+                  </figcaption>
+                </figure>
+              </div>
+
+              <ul>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Corte Buzz</strong>
+                  </p>
+                  <p class="fs-6">
+                    Corte de pelo muy corto y práctico, ideal para hombres que
+                    buscan un look fácil de mantener y que no requiere mucho
+                    tiempo para peinar. También es una buena opción para
+                    deportistas y personas con poco tiempo para cuidar su
+                    cabello.
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Mohicano personalizado</strong>
+                  </p>
+                  <p class="fs-6">
+                    Al principio comentábamos que este año la tendencia será la
+                    creatividad. En todos sus sentidos. Y, como ejemplo, este
+                    corte mohicano personalizado, genial para aquellos que
+                    busquen destacar su estilo personal y tener un look
+                    llamativo y diferente.
+                  </p>
+                </li>
+                <li>
+                  <p class="fs-6 mx-1">
+                    <strong>Corte Crop con flequillo César</strong>
+                  </p>
+                  <p class="fs-6">
+                    Similar al Buzz, otra opción clásica y elegante para los
+                    hombres que buscan un look sofisticado y fácil de mantener.
+                    Te vendrá genial si tienes el cabello liso y fino. Sin duda,
+                    uno de los peinados más atemporales pero que vuelve a
+                    colarse por méritos propios en la lista de mejores cortes de
+                    pelo hombre 2023.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="mt-3 fs-6">
+            Los estilos de pelo para hombres van desde los clásicos hasta los modernos. Ya sea en cortes clásicos como el corte militar, el flequillo o el estilo costa, o modernos como el corte desvanecido, se puede encontrar un estilo para adaptarse a su personalidad y su estética. Para aquellos con cabello grueso, se recomienda elegir estilos con volumen para crear características únicas con una gran cantidad de estilos. Para cabello fino, los estilos que agreguen apariencia y volumen pueden ser ideales, para crear el look deseado. Sea cual sea el estilo, consultar a un profesional puede ayudar a encontrar el estilo perfecto para cualquier hombre.
+          </div>
+        </div>
+
+        <div class="col-2 p-5 bye">
+          <!--Tabla de contenido-->
+          <div class="card" id="toc">
+            <div class="card-body">
+              <h5 class="card-title">Tabla de contenidos</h5>
+              <hr />
+              <!--Content-->
+              <ul>
+                <li>
+                  <a href="#mujer" class="card-text">Mujeres</a>
+                  <ul>
+                    <li>
+                      <a href="#home-tab"  class="card-text">Rubias</a>
+                    </li>
+                    <li>
+                      <a href="#home-tab" class="card-text">Castañas</a>
+                    </li>
+                    <li>
+                      <a href="#home-tab" class="card-text">Tintes</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="#male" class="card-text">Hombres</a>
+                  <ul>
+                    <li>
+                      <a href="#home-tab2" class="card-text">Rubios</a>
+                    </li>
+                    <li>
+                      <a href="#home-tab2" class="card-text">Castaños</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+      <div
+        class="d-flex justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="mb-3 m-3 mb-md-0 text-body-secondary"
+            >© 2023 Desarrollado por José Duarte</span
+          >
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a class="text-body-secondary m-3" href="https://github.com/PichiGod"
+              ><i class="bi bi-github mx-3"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col d-flex align-items-center m-5 text-body-secondary">
+        <ul class="nav flex-column m-5">
+          <p class="fs-6">Bibliografia</p>
+          <hr />
+          <p class="fs-6">Mujeres</p>
+          <li>
+            <a href="https://tahecosmetics.com/trends/tipos-pelo-rubio/"
+              >Tahecosmetics</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.johnfrieda.com/es-mx/blog/tendencia/diez-tonos-castanos-para-cada-tipo-de-piel/"
+              >Johnfrieda</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.glamour.mx/belleza/cabello/articulos/corte-bob-balayage-tonos-de-tinte-que-van-bien-con-este-corte/22266"
+              >Glamour</a
+            >
+          </li>
+        </ul>
+        <ul class="nav flex-column mt-5 pt-1 text-body-secondary">
+          <p class="fs-6">Hombres</p>
+          <li>
+            <a href="https://tahecosmetics.com/trends/cortes-pelo-hombre/"
+              >Tahecosmetics</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.allthingshair.com/es-ar/cortes-de-pelo-de-hombre/tendencias-de-pelo-para-hombres/pelo-platinado-hombre-el-rubio-que-se-impone/"
+              >All things hair</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!--Bootstrap js-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
