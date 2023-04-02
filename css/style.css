@@ -1,0 +1,34 @@
+#toc{
+    position: fixed;
+}
+
+.justify{
+    text-align: justify;
+    padding: 1rem;
+    margin-left: 15px;
+}
+
+.n{
+    width: 200px;
+    height: 200px;
+}
+
+#med-img{
+    width: 225px;
+    height: 180px;
+}
+
+#sml-img{
+    width: 250px;
+    height: 230px;
+}
+
+@media screen and (max-width:600px) {
+    div.bye{
+        display: none;
+    }
+    div.row{
+        width:500px;
+        margin-left: 0.2rem;
+    }
+}
